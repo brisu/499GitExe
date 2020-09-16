@@ -1,5 +1,8 @@
+from collections import Counter
 def anagramComp(word1, word2):
-        return word1.lower() == word2.lower()
+    word1 = word1.lower()
+    word2 = word2.lower()
+    return Counter(word1.strip()) == Counter(word2.strip())
 
 
 
