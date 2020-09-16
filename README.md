@@ -7,3 +7,11 @@ To use the function:
 1. Run the program in your desired IDE
 2. Input the texts as single word strings as prompted in the console
 3. Wait for function to return the result of the comparison.
+
+Feature 1:
+In feature 1, you would have to the ability to compare strings or words with spaces in between the characters. The comparison will remove any white spaces and only compare text to determine if it is indeed an anagram.
+
+To use the function:
+1. Run the program in your desired IDE
+2. Input the texts as word or strings as prompted in the console
+3. Wait for function to return the result of the comparison as true or false.

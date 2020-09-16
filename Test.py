@@ -3,8 +3,8 @@ from Master import anagramComp
 
 class anagram(unittest.TestCase):
 
-   def testFirstAna(self):
-       self.assertTrue(is_anagram("hi", "eat"))
+   def testTrue(self):
+       self.assertTrue(anagramComp("a b c", "a c b"))
 
-   def test_different_lengths(self):
-       self.assertFalse(is_anagram("tea", "treat"))
+   def testString(self):
+       self.assertFalse(anagramComp("I am happy", "I am sad"))
