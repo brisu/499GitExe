@@ -1,8 +1,19 @@
 from collections import Counter
 def anagramComp(word1, word2):
-    word1 = word1.lower()
     word2 = word2.lower()
-    return Counter(word1.strip()) == Counter(word2.strip())
+
+    temp1,temp2 = "", ""
+    for i in word1:
+        if i.isalpha():
+            word1 = "".join([temp1, i])
+    word1 = temp1.lower()
+
+    for i in word2:
+        if i.isalpha():
+            word2 = "".join([temp2, i])
+    word2 = temp2.lower()
+
+    return sorted(word1) == sorted(word2)
 
 
 
