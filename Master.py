@@ -1,9 +1,5 @@
 def anagramComp(word1, word2):
-    if word1.lower() == word2.lower():
-        print(word1 + " and "+ word2 + " are anagram")
-        return
-    else:
-        print(word1 + " and "+ word2 + " are NOT anagram")
+        return word1.lower() == word2.lower()
 
 
 
