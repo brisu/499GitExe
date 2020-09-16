@@ -8,8 +8,8 @@ def anagramComp(word1, word2):
             word1 = "".join([temp1, i])
     word1 = temp1.lower()
 
-    for i in word2:
-        if i.isalpha():
+    for j in word2:
+        if j.isalpha():
             word2 = "".join([temp2, i])
     word2 = temp2.lower()
 
