@@ -1,4 +1,3 @@
-from collections import Counter
 def anagramComp(word1, word2):
     word2 = word2.lower()
 
